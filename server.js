@@ -3,7 +3,7 @@ const { getEnvConfig } = require('./src/config/env');
 const { createApp } = require('./src/app');
 const { ensureInitialSeedData } = require('./src/services/authService');
 const { startVerificationCleanupJob } = require('./src/jobs/expireVerifications');
-
+ 
 async function start() {
   const cfg = getEnvConfig();
   await connectDatabase();
