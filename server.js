@@ -12,7 +12,7 @@ async function start() {
 
   const app = createApp();
   app.listen(cfg.port, '0.0.0.0', () => {
-    console.log(`AMANA Backend API listening on http://0.0.0.0:${cfg.port}`);
+    console.log(`AMANA Backend API listeningOn http://0.0.0.0:${cfg.port}`);
   });
 }
 
